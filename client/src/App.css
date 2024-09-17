@@ -1,0 +1,72 @@
+
+.icon-spacing {
+  margin-right: 8px;
+}
+
+.seat {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  margin: 6px; /* Space between seats */
+}
+
+.seat.occupied {
+  background-color: red;
+}
+
+.seat.available {
+  background-color: green;
+}
+
+.seat.requested{
+  background-color: yellow;
+}
+
+.seat.temp-occupied {
+  background-color: blue;
+}
+
+
+.seat-code {
+  display: block; /* Take up the full width of its container */
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.table-container {
+  margin: 40px auto; /* Automatic centering*/
+  padding: 20px; 
+  max-width: 80%; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.navbar-custom {
+  background-color: #6a0dad; 
+  border-radius: 40px; 
+  padding: 10px 10px; 
+  margin-top: 10px;
+}
+
+
+.custom-button {
+  background-color: #6a0dad; 
+  border: none; 
+  border-radius: 20px; 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+}
+
+.custon-border{
+  border: none; 
+  border-radius: 20px; 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+}
